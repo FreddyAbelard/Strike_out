@@ -19,6 +19,7 @@
         <td><%= striker.description %></td>
         <td><%= striker.price %></td>
         <td><%= link_to 'Show', striker %></td>
+        <td><%= link_to 'Delete', striker, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
